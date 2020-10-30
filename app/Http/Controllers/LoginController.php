@@ -10,7 +10,7 @@ use Laravel\Socialite\Facades\Socialite;
 class LoginController extends Controller
 {
     /**
-     * Redirect the user to the GitHub authentication page.
+     * Redirect the user to the Provider authentication page.
      *
      * @param $provider
      * @return JsonResponse
@@ -26,7 +26,7 @@ class LoginController extends Controller
     }
 
     /**
-     * Obtain the user information from GitHub.
+     * Obtain the user information from Provider.
      *
      * @param $provider
      * @return JsonResponse
